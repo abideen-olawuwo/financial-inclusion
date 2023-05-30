@@ -1,5 +1,3 @@
-# financial-inclusion
-
 * Problem Definition
 
 How well we can predict who in Africa is most likely to have a bank account?
@@ -14,11 +12,12 @@ The evaluation metric for this challenge is Mean Absolute error
 
 * Features
 
-The Dataset Features include; 
+The Dataset Features include; country, year, uniqueid, bank_account, location_type, cellphone_access, household_size, age_of_respondent
+gender_of_respondent,	relationship_with_head,	marital_status,	education_level, and	job_type
 
 * Modelling
 
-The model used for 
+The model used is XgboostClassifier
 
 
 
